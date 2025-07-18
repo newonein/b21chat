@@ -71,7 +71,7 @@ html {
 
 
 .img {
-    max-width: 100%; /* Responsive image */
+    max-width: 30%; /* Responsive image */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Center the image */
     margin: 0 auto; /* Center the image horizontally */
