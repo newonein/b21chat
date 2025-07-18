@@ -16,7 +16,7 @@ form {
 }
 .container {
     background-color: #ffffff; /* White background for the box */
-    padding: 130px; /* Space inside the box */
+    padding: 180px; /* Space inside the box */
     border-radius: 0px; /* Rounded corners for a softer look */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     width: 100%; /* Take full width of parent (up to max-width) */
@@ -72,7 +72,7 @@ html {
 
 img {
     max-width: 100%; /* Responsive image */
-    height: 45px; /* Maintain aspect ratio */
+    height: 120px; /* Maintain aspect ratio */
     display: block; /* Center the image */
     margin: 0 auto; /* Center the image horizontally */
     margin-bottom: 20px; /* Space below the image */
