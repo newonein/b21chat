@@ -70,7 +70,7 @@ html {
 }
 
 
-.img {
+img {
     max-width: 100%; /* Responsive image */
     height: 45px; /* Maintain aspect ratio */
     display: block; /* Center the image */
