@@ -1,0 +1,93 @@
+
+body {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+}
+.container {
+    background-color: #ffffff; /* White background for the box */
+    padding: 130px; /* Space inside the box */
+    border-radius: 0px; /* Rounded corners for a softer look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 100%; /* Take full width of parent (up to max-width) */
+    max-width: 450px; /* Max width to prevent it from getting too wide on large screens */
+    border: 1px solid #ddd; /* Light border */
+    max-height: 300px;
+}
+
+.container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+input[type="submit"]{
+
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+
+}
+
+input[type="text"] {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding for the input */
+    margin: 8px 0; /* Margin for spacing */
+    border: 1px solid #100e0e; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+}
+input[type="password"] {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding for the input */
+    margin: 8px 0; /* Margin for spacing */
+    border: 1px solid #0c0b0b; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+}   
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #4CAF50; /* Green border on focus */
+    outline: none; /* Remove default outline */
+}
+input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+html {
+    font-family: Arial, sans-serif; /* Default font for the page */
+    background-color: #f4f4f4; /* Light gray background for the whole page */
+}
+
+
+.img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Center the image */
+    margin: 0 auto; /* Center the image horizontally */
+}   
+
+
+h1 {
+    color: #333; /* Dark gray color for the heading */
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    font-size: 2em; /* Larger font size for the heading */
+    font-weight: bold; /* Bold font for emphasis */
+    text-transform: uppercase; /* Uppercase letters for the heading */
+    letter-spacing: 1px; /* Slightly increased spacing between letters */
+    margin-top: 20px; /* Space above the heading */
+    padding: 10px; /* Padding around the heading */
+    background-color: #e0e0e0; /* Light gray background for the heading
+}
+    
