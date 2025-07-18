@@ -71,11 +71,16 @@ html {
 
 
 .img {
-    max-width: 30%; /* Responsive image */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Responsive image */
+    height: 45px; /* Maintain aspect ratio */
     display: block; /* Center the image */
     margin: 0 auto; /* Center the image horizontally */
-}   
+    margin-bottom: 20px; /* Space below the image */
+    border-radius: 5px; /* Rounded corners for the image */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */   
+    transform: scale(1); /* Initial scale */
+}    
 
 
 h1 {
