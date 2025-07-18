@@ -22,7 +22,7 @@ form {
     width: 100%; /* Take full width of parent (up to max-width) */
     max-width: 450px; /* Max width to prevent it from getting too wide on large screens */
     border: 1px solid #ddd; /* Light border */
-    max-height: 300px;
+    max-height: 350px;
 }
 
 .container h2 {
